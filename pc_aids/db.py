@@ -2,9 +2,6 @@ import psycopg2
 
 
 class PgSQL:
-    def __repr__(self):
-        return repr(self.get_cursor())
-
     def __init__(self, set_manager):
         self.settings = set_manager.get("postgres")
 
