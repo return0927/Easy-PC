@@ -1,5 +1,6 @@
 {
   "global": {
+    "server_name": "Easy PC : R3turnDev Network",
     "master_key": "MASTER KEY HERE",
     "threading": true
   },
