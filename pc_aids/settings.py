@@ -2,8 +2,8 @@ from json import dump, load
 
 
 class SetManager:
-    def __repr__(self):
-        return repr(self.set)
+    def __dict__(self):
+        return self.set
 
     def __init__(self):
         self.set = {}
@@ -19,4 +19,4 @@ class SetManager:
             else:
                 return self.set[part]
         else:
-            return self.__repr__()
+            return self.__dict__()
